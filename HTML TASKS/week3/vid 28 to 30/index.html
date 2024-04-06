@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>form</title>
+        <meta name="description" content="this my page">
+    </head>
+    <body>
+        <form>
+            <label> Username :</label>
+            <input type="text" name="User"
+             placeholder="Username" 
+             autofocus
+              required
+               minlength="5" maxlength="20"><br>
+            <label hidden >Token</label>
+           
+            <input type="text" name="Tok" placeholder="Token"
+             value="b92f1fc2fce391ad7af633723afd3055" hidden> <br>
+            <label>Email :</label>
+            <input type="email"name="mail" placeholder="enter your email" value="o@o.com" ><br>
+            <h3>Job</h3>
+             <input type="radio" name="job" id="Fron_End" value="Fron_End Developer" checked>
+             <label for="Fron_End">Fron_End Developer</label>
+            <br />
+             <input id="Back_End" type="radio" name="job" value="Back_End Developer" >
+             <label for="Back_End">Back_End Developer</label>
+             <br />
+             <input id="Busines" type="radio" name="job" value="Busines Analyst">
+             <label for="Busines">Busines Analyst</label>
+            <br />
+             <input id="Project" type="radio" name="job" value="Project Manager">
+             <label for="Project">Project Manager</label>
+             <br />
+              <input id="Scrum" type="radio" name="job" value="Scrum Master">
+             <label for="Scrum">Scrum Master</label>
+             <br />
+             <hr>
+             <h3>Skills</h3>
+             <input id="Problem" type="checkbox" name="Skills" value="Problem Solving" checked>
+             <label for="Problem">Problem Solving</label>
+             <br />
+             <input id="Logical" type="checkbox" name="Skills" value="Logical Thinking" >
+             <label for="Logical">Logical Thinking</label>
+             <br />
+             <input id="Advanced" type="checkbox" name="Skills" value="Advanced Search" >
+             <label for="Advanced">Advanced Search</label>
+             <br />
+             <input id="Analysis" type="checkbox" name="Skills" value="Analysis" >
+             <label for="Analysis">Analysis</label>
+             <br />
+             <input id="Planning" type="checkbox" name="Skills" value="Planning" >
+             <label for="Planning">Planning</label>
+             <br />
+             <label for="lan">Choose Language</label>
+             <select id="lan" name="Language" >
+               <optgroup label="PHP"> 
+                <option value="1">v5.0 </option>
+                <option value="2">v7.0 </option>
+                <option value="3">v8.0 </option>
+            </optgroup>
+            <optgroup label="Python"> 
+                <option value="4">v2.0 </option>
+                <option value="5">v3.0 </option>
+                <option value="6">v3.9 </option>
+            </optgroup>
+             </select>
+             <br />
+             <hr>
+             <textarea name="brief" cols="60" rows="20"
+              placeholder="Write Here Why You Want To Learn Programming"></textarea>
+             <hr> <br />
+             <input type="reset" value="Empty">
+            <input type="submit" value="Send">
+
+        </form>
+    </body>
+</html>

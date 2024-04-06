@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>form</title>
+        <meta name="description" content="this my page">
+    </head>
+    <body>
+        <h1>silver Store</h1>
+        <form action="tast.py" method="post">
+            <input type="hidden" value="fatim">
+            <div>
+            <label >Username :</label>
+            <input type="taxt" required placeholder="Username" name="User">
+            </div>
+            <hr>
+            <div>
+            <label>Password : </label>
+            <input type="password" placeholder=" WRITE COMPLIX Password" name="password">
+             </div>
+            <hr>
+            <div>
+            <label >Mobile :</label>
+            <input type="taxt" placeholder="enter Your number" name="Mobile" value="+20100 (234) 123"> </div>
+            <hr>
+            <div>
+            <label >Email :</label  >
+            <input type="email"required placeholder=" WRITE a vaild Email" name="mail"> </div>
+            <hr>
+            <div>
+            <label >Subject :</label>
+            <input type="taxt" placeholder="Subject" name="Subject">
+            
+            <!-- البوينت الخاصة بتكليف 2 -->
+            <input type="range" name="range" min="0" max="500" step="50" value="0">
+            
+            <input type="submit" value="Send Data"> 
+            <input type="reset" value="Empty Form">
+        </div>
+        </form>
+    </body>
+</html>
